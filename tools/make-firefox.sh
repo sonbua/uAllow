@@ -21,7 +21,7 @@ cp    platform/firefox/*.js                 $DES/js/
 cp    platform/firefox/manifest.json        $DES/
 
 echo "*** nuTensor.firefox: Generating meta..."
-python tools/make-firefox-meta.py           $DES/
+python3 tools/make-firefox-meta.py          $DES/
 
 if [ "$1" = all ]; then
     echo "*** nuTensor.firefox: Creating package..."
