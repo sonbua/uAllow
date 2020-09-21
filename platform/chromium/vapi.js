@@ -59,10 +59,10 @@ if (
         /^image\/|^text\/plain/.test(document.contentType || '') === false
     ) &&
     (
-        self.vAPI instanceof Object === false || vAPI.uMatrix !== true
+        self.vAPI instanceof Object === false || vAPI.nuTensor !== true
     )
 ) {
-    vAPI = self.vAPI = { uMatrix: true };
+    vAPI = self.vAPI = { nuTensor: true };
 }
 
 
