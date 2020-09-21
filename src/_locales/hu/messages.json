@@ -1,6 +1,6 @@
 {
     "extName": {
-        "message": "uMatrix",
+        "message": "nuTensor",
         "description": ""
     },
     "extShortDesc": {
@@ -8,11 +8,11 @@
         "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS"
     },
     "dashboardPageName": {
-        "message": "uMatrix — Vezérlőpult",
+        "message": "nuTensor — Vezérlőpult",
         "description": ""
     },
     "loggerPageName": {
-        "message": "uMatrix — Napló",
+        "message": "nuTensor — Napló",
         "description": "Title for the logger window"
     },
     "settingsPageName": {
@@ -164,7 +164,7 @@
         "description": "Used as a tooltip for the recipe padlock button"
     },
     "statsPageTitle": {
-        "message": "uMatrix &ndash; Statisztika",
+        "message": "nuTensor &ndash; Statisztika",
         "description": ""
     },
     "statsPageGenericStats": {
@@ -276,7 +276,7 @@
         "description": "Second part of Remember the last [n] HTTP requests per page"
     },
     "statsPageLogSizeHelp": {
-        "message": "<p>A <i>uMatrix</i> lehetőséget ad a weboldalak által generált legutóbbi nyers HTTP lekérések részleteinek megtekintésére.</p><p>Ez leginkább haladó felhasználók számára hasznos, akik szeretnének képben lenni a weboldal tényleges működésével.</p><p>Természetesen a HTTP lekérések naplózása memóriát foglal, ezért amennyiben ilyen részletes technikai információkra nincs szükség, abban az esetben érdemes ezt a funkciót kikapcsolni memóriamegtakarítás céljából.</p><p>Ebben a mezőben megadható a maximálisan eltárolt HTTP lekérések száma; &ldquo;<code>0</code>&rdquo;-ra állítva ez a funkció kikapcsolásra kerül.</p>",
+        "message": "<p>A <i>nuTensor</i> lehetőséget ad a weboldalak által generált legutóbbi nyers HTTP lekérések részleteinek megtekintésére.</p><p>Ez leginkább haladó felhasználók számára hasznos, akik szeretnének képben lenni a weboldal tényleges működésével.</p><p>Természetesen a HTTP lekérések naplózása memóriát foglal, ezért amennyiben ilyen részletes technikai információkra nincs szükség, abban az esetben érdemes ezt a funkciót kikapcsolni memóriamegtakarítás céljából.</p><p>Ebben a mezőben megadható a maximálisan eltárolt HTTP lekérések száma; &ldquo;<code>0</code>&rdquo;-ra állítva ez a funkció kikapcsolásra kerül.</p>",
         "description": "To help user understand the purpose of the log size value"
     },
     "statsPageRefresh": {
@@ -432,7 +432,7 @@
         "description": "Label for radio-button to pick export text format"
     },
     "settingsPageTitle": {
-        "message": "uMatrix &ndash; Beállítások",
+        "message": "nuTensor &ndash; Beállítások",
         "description": ""
     },
     "settingsMatrixDisplayHeader": {
@@ -492,7 +492,7 @@
         "description": ""
     },
     "privacyPageTitle": {
-        "message": "uMatrix &ndash; Adatvédelem",
+        "message": "nuTensor &ndash; Adatvédelem",
         "description": ""
     },
     "privacyDeleteBlockedCookiesPrompt": {
@@ -500,7 +500,7 @@
         "description": ""
     },
     "privacyDeleteBlockedCookiesHelp": {
-        "message": "<p>A <i>uMatrix</i> a tiltólistás sütik böngészőből való távozását tiltja csak meg, a böngészőbe érkezésüket nem akadályozza meg. Ezúton tudomás szerezhető arról, ha egy oldal sütiket akar tárolni, valamint azok tartalma is megtekinthetővé válik.</p><p>Ezen opció bejelölésével a <i>uMatrix</i> automatikusan eltávolítja a beérkezett tiltott sütiket.</p><p><b>Fontos:</b> Nemcsak oldalak, hanem kiegészítők is indíthatnak lekérdezéseket működésük során, amelyek sütik létrehozásához vezethetnek. Amennyiben ez az opció engedélyezve van, továbbá a lekérésekhez tartozó hostneveken a sütik blokkolva vannak, akkor azok el lesznek távolítva a <i>uMatrix</i> által. Ez egyes kiegészítőknél hibás működést eredményezhet, amíg az általuk használt hostnevekről kapott sütik nincsenek engedélyezve.</p>",
+        "message": "<p>A <i>nuTensor</i> a tiltólistás sütik böngészőből való távozását tiltja csak meg, a böngészőbe érkezésüket nem akadályozza meg. Ezúton tudomás szerezhető arról, ha egy oldal sütiket akar tárolni, valamint azok tartalma is megtekinthetővé válik.</p><p>Ezen opció bejelölésével a <i>nuTensor</i> automatikusan eltávolítja a beérkezett tiltott sütiket.</p><p><b>Fontos:</b> Nemcsak oldalak, hanem kiegészítők is indíthatnak lekérdezéseket működésük során, amelyek sütik létrehozásához vezethetnek. Amennyiben ez az opció engedélyezve van, továbbá a lekérésekhez tartozó hostneveken a sütik blokkolva vannak, akkor azok el lesznek távolítva a <i>nuTensor</i> által. Ez egyes kiegészítőknél hibás működést eredményezhet, amíg az általuk használt hostnevekről kapott sütik nincsenek engedélyezve.</p>",
         "description": ""
     },
     "privacyDeleteNonBlockedSessionCookiesPrompt1": {
@@ -532,7 +532,7 @@
         "description": "Second part of 'Clear browser cache every [n] minutes'"
     },
     "privacyClearCacheHelp": {
-        "message": "<p>Egyes weboldalak annyira elszántan követni szeretnék a felhasználóikat, hogy képesek nem kifejezetten szép trükköket is bevetni a követés ellen tett lépéseik kikerülése érdekében.</p><p>Pár ilyen trükk<sup>[1, 2]</sup> a <a href='https://en.wikipedia.org/wiki/Web_cache'>böngésző gyorsítótárát</a> használja fel, tekintve, hogy a felhasználók ritkán ürítik ki azt, így gyakran sokáig eltárolásra kerülnek ezek a követők.</p><p>A böngésző gyorsítótárának gyakori ürítése kevés hátránnyal jár, (legtöbbször fel sem tűnik,) ráadásul megállítja ezeket az ellenszenves követéseket a személyes adatok védelme érdekében.</p><p>Ezen opció engedélyezésekor a <i>uMatrix</i> kiüríti a böngészó gyorsítótárát a megadott időközönként.</p><p>[1] <a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Preventing Web Tracking via the Browser Cache&rdquo;</a>\n[2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;</a></p>",
+        "message": "<p>Egyes weboldalak annyira elszántan követni szeretnék a felhasználóikat, hogy képesek nem kifejezetten szép trükköket is bevetni a követés ellen tett lépéseik kikerülése érdekében.</p><p>Pár ilyen trükk<sup>[1, 2]</sup> a <a href='https://en.wikipedia.org/wiki/Web_cache'>böngésző gyorsítótárát</a> használja fel, tekintve, hogy a felhasználók ritkán ürítik ki azt, így gyakran sokáig eltárolásra kerülnek ezek a követők.</p><p>A böngésző gyorsítótárának gyakori ürítése kevés hátránnyal jár, (legtöbbször fel sem tűnik,) ráadásul megállítja ezeket az ellenszenves követéseket a személyes adatok védelme érdekében.</p><p>Ezen opció engedélyezésekor a <i>nuTensor</i> kiüríti a böngészó gyorsítótárát a megadott időközönként.</p><p>[1] <a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Preventing Web Tracking via the Browser Cache&rdquo;</a>\n[2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;</a></p>",
         "description": ""
     },
     "privacyProcessRefererPrompt": {
@@ -540,7 +540,7 @@
         "description": ""
     },
     "privacyProcessRefererHelp": {
-        "message": "Wikipediából:<blockquote>A Referer egy olyan HTTP header, ami meghatározza annak a weboldalnak címét, ami a lekért oldalra mutatott. ... <b>Mivel ez az információ a személyes adatok védelmét sértheti, néhány böngésző megengedi a felhasználóknak, hogy kikapcsolják ennek az információnak az elküldését.</b></blockquote>Ezen beállítás engedélyezésekor a <i>uMatrix</i> meg fogja hamisítani a referer információt abban az esetben, ha a referer domain neve harmadik félnek számít a lekérés domain nevéhez képest.",
+        "message": "Wikipediából:<blockquote>A Referer egy olyan HTTP header, ami meghatározza annak a weboldalnak címét, ami a lekért oldalra mutatott. ... <b>Mivel ez az információ a személyes adatok védelmét sértheti, néhány böngésző megengedi a felhasználóknak, hogy kikapcsolják ennek az információnak az elküldését.</b></blockquote>Ezen beállítás engedélyezésekor a <i>nuTensor</i> meg fogja hamisítani a referer információt abban az esetben, ha a referer domain neve harmadik félnek számít a lekérés domain nevéhez képest.",
         "description": ""
     },
     "privacyNoMixedContentPrompt": {
@@ -684,7 +684,7 @@
         "description": ""
     },
     "aboutChangelog": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/releases'>Változási napló</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/releases'>Változási napló</a>",
         "description": ""
     },
     "aboutStorageUsed": {
@@ -692,11 +692,11 @@
         "description": ""
     },
     "aboutDoc": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/wiki'>Dokumentáció</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/wiki'>Dokumentáció</a>",
         "description": ""
     },
     "aboutPermissions": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/wiki/About-the-required-permissions'>Engedélyek</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/wiki/About-the-required-permissions'>Engedélyek</a>",
         "description": ""
     },
     "aboutCode": {
@@ -740,7 +740,7 @@
         "description": ""
     },
     "aboutRestoreConfirm": {
-        "message": "Minden jelenlegi beállítás felülírásra kerül a {{time}} dátumú biztonsági mentésben található beállítással, majd ezt követően a uMatrix újraindul.\n\nBiztosan felülírjam a jelenlegi beállításokat a megadott biztonsági mentéssel?",
+        "message": "Minden jelenlegi beállítás felülírásra kerül a {{time}} dátumú biztonsági mentésben található beállítással, majd ezt követően a nuTensor újraindul.\n\nBiztosan felülírjam a jelenlegi beállításokat a megadott biztonsági mentéssel?",
         "description": "Message asking user to confirm restore"
     },
     "aboutRestoreError": {
@@ -760,8 +760,8 @@
         "description": "Message asking user to confirm reset"
     },
     "mainBlockedPrompt1": {
-        "message": "A uMatrix megakadályozta a következő oldal betöltését:",
-        "description": "English: uMatrix has prevented the following page from loading:"
+        "message": "A nuTensor megakadályozta a következő oldal betöltését:",
+        "description": "English: nuTensor has prevented the following page from loading:"
     },
     "mainBlockedPrompt2": {
         "message": "A következő szabály miatt",

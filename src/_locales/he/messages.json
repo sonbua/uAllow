@@ -1,6 +1,6 @@
 {
     "extName": {
-        "message": "uMatrix",
+        "message": "nuTensor",
         "description": ""
     },
     "extShortDesc": {
@@ -8,11 +8,11 @@
         "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS"
     },
     "dashboardPageName": {
-        "message": "uMatrix — פאנל הקונפיגורציות",
+        "message": "nuTensor — פאנל הקונפיגורציות",
         "description": ""
     },
     "loggerPageName": {
-        "message": "uMatrix — מתעד הבקשות",
+        "message": "nuTensor — מתעד הבקשות",
         "description": "Title for the logger window"
     },
     "settingsPageName": {
@@ -164,7 +164,7 @@
         "description": "Used as a tooltip for the recipe padlock button"
     },
     "statsPageTitle": {
-        "message": "uMatrix &ndash; סטטיסטיקות",
+        "message": "nuTensor &ndash; סטטיסטיקות",
         "description": ""
     },
     "statsPageGenericStats": {
@@ -276,7 +276,7 @@
         "description": "Second part of Remember the last [n] HTTP requests per page"
     },
     "statsPageLogSizeHelp": {
-        "message": "<p>אתה יכול לבדוק את הפרטים של רוב בקשות HTTP הגולמיות האחרונות אשר יצאו מדף אינטרנט (ראה להלן).</p><p>זה שימושי בעיקר למשתמשים מתקדמים שרוצים לחקור בדיוק מה דף האינטרנט עשה. אבל רישום בקשות ה HTTP הללו דורש זיכרון, ואם לא אכפת לך מהמידע הטכני הזה, אז הזיכרון מתבזבז.</p><p>לכן קיימת אפשרות זו המאפשרת לך להתאים את המספר המרבי של בקשות ה HTTP הכי האחרונות שמיועדות להירשם לבדיקה נוספת.</p><p>הזן &ldquo;<code>0</code>&rdquo; כדי לכבות את הרישום המפורט (וכתוצאה מכך להפחית את השימוש בזיכרון של <i>uMatrix</i>).</p>",
+        "message": "<p>אתה יכול לבדוק את הפרטים של רוב בקשות HTTP הגולמיות האחרונות אשר יצאו מדף אינטרנט (ראה להלן).</p><p>זה שימושי בעיקר למשתמשים מתקדמים שרוצים לחקור בדיוק מה דף האינטרנט עשה. אבל רישום בקשות ה HTTP הללו דורש זיכרון, ואם לא אכפת לך מהמידע הטכני הזה, אז הזיכרון מתבזבז.</p><p>לכן קיימת אפשרות זו המאפשרת לך להתאים את המספר המרבי של בקשות ה HTTP הכי האחרונות שמיועדות להירשם לבדיקה נוספת.</p><p>הזן &ldquo;<code>0</code>&rdquo; כדי לכבות את הרישום המפורט (וכתוצאה מכך להפחית את השימוש בזיכרון של <i>nuTensor</i>).</p>",
         "description": "To help user understand the purpose of the log size value"
     },
     "statsPageRefresh": {
@@ -432,7 +432,7 @@
         "description": "Label for radio-button to pick export text format"
     },
     "settingsPageTitle": {
-        "message": "uMatrix &ndash; הגדרות",
+        "message": "nuTensor &ndash; הגדרות",
         "description": ""
     },
     "settingsMatrixDisplayHeader": {
@@ -492,7 +492,7 @@
         "description": ""
     },
     "privacyPageTitle": {
-        "message": "uMatrix &ndash; פרטיות",
+        "message": "nuTensor &ndash; פרטיות",
         "description": ""
     },
     "privacyDeleteBlockedCookiesPrompt": {
@@ -500,7 +500,7 @@
         "description": ""
     },
     "privacyDeleteBlockedCookiesHelp": {
-        "message": "<p>עוגיות ברשימה השחורה לא נמנעות על ידי <i>uMatrix</i> מלהיכנס לדפדפן שלך. אולם הן כן מנועות מלצאת מהדפדפן שלך, וזה מה שחשוב באמת. לא לחסום עוגיות לפני שהן נכנסות לדפדפן שלך נותן לך את ההזדמנות להיות מודע לכך שאתר ניסה להשתמש בעוגיות, ויתר על כן כדי לבדוק את תוכנם, אם תרצה.</p><p>כאשר <i>uMatrix</i> נתקל בעוגייה שברשימה השחורה, הן יכולות להיות מוסרות מהדפדפן שלך אם תרצה בכך.</p><p><b>הערה חשובה:</b> תוספים יכולים לבצע בקשות רשת במהלך פעולתם הרגילה. בקשות אלה יכולות לגרום לכך שעוגיות יווצרו בדפדפן. אם הדומיין שממנה העוגייה הגיעה לא ברשימה הלבנה, העוגייה תמחק מהדפדפן על ידי <i>µMatrix</i> אם אפשרות זו מאופשרת. אז תהיה בטוח לגבי זה שהדומיין(ים) אשר איתם התוסף יכול לתקשר נמצא(ים) ברשימה הלבנה.</p>",
+        "message": "<p>עוגיות ברשימה השחורה לא נמנעות על ידי <i>nuTensor</i> מלהיכנס לדפדפן שלך. אולם הן כן מנועות מלצאת מהדפדפן שלך, וזה מה שחשוב באמת. לא לחסום עוגיות לפני שהן נכנסות לדפדפן שלך נותן לך את ההזדמנות להיות מודע לכך שאתר ניסה להשתמש בעוגיות, ויתר על כן כדי לבדוק את תוכנם, אם תרצה.</p><p>כאשר <i>nuTensor</i> נתקל בעוגייה שברשימה השחורה, הן יכולות להיות מוסרות מהדפדפן שלך אם תרצה בכך.</p><p><b>הערה חשובה:</b> תוספים יכולים לבצע בקשות רשת במהלך פעולתם הרגילה. בקשות אלה יכולות לגרום לכך שעוגיות יווצרו בדפדפן. אם הדומיין שממנה העוגייה הגיעה לא ברשימה הלבנה, העוגייה תמחק מהדפדפן על ידי <i>µMatrix</i> אם אפשרות זו מאופשרת. אז תהיה בטוח לגבי זה שהדומיין(ים) אשר איתם התוסף יכול לתקשר נמצא(ים) ברשימה הלבנה.</p>",
         "description": ""
     },
     "privacyDeleteNonBlockedSessionCookiesPrompt1": {
@@ -532,7 +532,7 @@
         "description": "Second part of 'Clear browser cache every [n] minutes'"
     },
     "privacyClearCacheHelp": {
-        "message": "<p>יש אתרי אינטרנט שממש רוצים לעקוב אחרייך, כל כך שהם ישתמשו בטריקים לא כל כך יפים על מנת לעקוף את כל הדברים שאתה עושה כדי לא להיות במעקב.</p><p>כמה מהטריקים האלה מתבססים<sup>[1, 2]</sup> על <a href='https://en.wikipedia.org/wiki/Web_cache'>הזיכרון מטמון של הדפדפן</a>, אשר תוכנו לרוב נמצא הרבה זמן על המחשב מכיוון שלעיתים רחוקות משתמשים ישקיעו מזמנם לנקות באופן קבוע את הזיכרון מטמון של הדפדפן שלהם.</p><p>יש אי נעימות קלה לנקות את הזיכרון מטמון של הדפדפן באופן קבוע (רוב הסיכויים שלא תשים לב כשזה קורה), והתועלת היא במניעה של העוקבים הנתעבים האלה מחדירה לפרטיות שלך.</p><p>סמן אפשרות זו בשביל ש <i>uMatrix</i> יעשה זאת בשבילך, כל כמה זמן שתרצה.</p><p>[1] <a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;מניעה מעקב אינטרנטי על ידי שימוש בזיכרון מטמון של הדפדפן&rdquo;</a>\n[2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;עוגיות חסרי העוגיות&rdquo;</a></p>",
+        "message": "<p>יש אתרי אינטרנט שממש רוצים לעקוב אחרייך, כל כך שהם ישתמשו בטריקים לא כל כך יפים על מנת לעקוף את כל הדברים שאתה עושה כדי לא להיות במעקב.</p><p>כמה מהטריקים האלה מתבססים<sup>[1, 2]</sup> על <a href='https://en.wikipedia.org/wiki/Web_cache'>הזיכרון מטמון של הדפדפן</a>, אשר תוכנו לרוב נמצא הרבה זמן על המחשב מכיוון שלעיתים רחוקות משתמשים ישקיעו מזמנם לנקות באופן קבוע את הזיכרון מטמון של הדפדפן שלהם.</p><p>יש אי נעימות קלה לנקות את הזיכרון מטמון של הדפדפן באופן קבוע (רוב הסיכויים שלא תשים לב כשזה קורה), והתועלת היא במניעה של העוקבים הנתעבים האלה מחדירה לפרטיות שלך.</p><p>סמן אפשרות זו בשביל ש <i>nuTensor</i> יעשה זאת בשבילך, כל כמה זמן שתרצה.</p><p>[1] <a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;מניעה מעקב אינטרנטי על ידי שימוש בזיכרון מטמון של הדפדפן&rdquo;</a>\n[2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;עוגיות חסרי העוגיות&rdquo;</a></p>",
         "description": ""
     },
     "privacyProcessRefererPrompt": {
@@ -540,7 +540,7 @@
         "description": ""
     },
     "privacyProcessRefererHelp": {
-        "message": "מתוך ויקיפדיה:<blockquote>HTTP referer זוהי כותרת (header) של בקשת HTTP אשר מזהה את הכתובת של דף האינטרנט שמקושר למשאב שמבוקש. ... <b>משום שהמידע על המפנה (referer) יכול לפגוע בפרטיות, מספר דפדפנים מאפשרים למשתמש לבטל את השליחה של המידע של המפנה.</b></blockquote>אם אפשרות זו מאופשרת, <i>uMatrix</i> יזייף את המידע של ה HTTP referrer אם שם הדומיין של ה HTTP referrer הוא צד שלישי לשם הדומיין של בקשת הרשת.",
+        "message": "מתוך ויקיפדיה:<blockquote>HTTP referer זוהי כותרת (header) של בקשת HTTP אשר מזהה את הכתובת של דף האינטרנט שמקושר למשאב שמבוקש. ... <b>משום שהמידע על המפנה (referer) יכול לפגוע בפרטיות, מספר דפדפנים מאפשרים למשתמש לבטל את השליחה של המידע של המפנה.</b></blockquote>אם אפשרות זו מאופשרת, <i>nuTensor</i> יזייף את המידע של ה HTTP referrer אם שם הדומיין של ה HTTP referrer הוא צד שלישי לשם הדומיין של בקשת הרשת.",
         "description": ""
     },
     "privacyNoMixedContentPrompt": {
@@ -684,7 +684,7 @@
         "description": ""
     },
     "aboutChangelog": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/releases'>רשימת שינויים</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/releases'>רשימת שינויים</a>",
         "description": ""
     },
     "aboutStorageUsed": {
@@ -692,7 +692,7 @@
         "description": ""
     },
     "aboutDoc": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/wiki'>דוקומנטציה</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/wiki'>דוקומנטציה</a>",
         "description": ""
     },
     "aboutPermissions": {
@@ -740,7 +740,7 @@
         "description": ""
     },
     "aboutRestoreConfirm": {
-        "message": "כל ההגדרות שלך יוחלפו בנתונים שגובו ב {{time}}, ו uMatrix יופעל מחדש.\n\nהאם להחליף את כל ההגדרות הקיימות בנתונים המגובים?",
+        "message": "כל ההגדרות שלך יוחלפו בנתונים שגובו ב {{time}}, ו nuTensor יופעל מחדש.\n\nהאם להחליף את כל ההגדרות הקיימות בנתונים המגובים?",
         "description": "Message asking user to confirm restore"
     },
     "aboutRestoreError": {
@@ -760,8 +760,8 @@
         "description": "Message asking user to confirm reset"
     },
     "mainBlockedPrompt1": {
-        "message": "uMatrix מנע מהעמוד הבא מלהיטען:",
-        "description": "English: uMatrix has prevented the following page from loading:"
+        "message": "nuTensor מנע מהעמוד הבא מלהיטען:",
+        "description": "English: nuTensor has prevented the following page from loading:"
     },
     "mainBlockedPrompt2": {
         "message": "בגלל החוק הבא",

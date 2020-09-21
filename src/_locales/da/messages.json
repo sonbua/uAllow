@@ -1,6 +1,6 @@
 {
     "extName": {
-        "message": "uMatrix",
+        "message": "nuTensor",
         "description": ""
     },
     "extShortDesc": {
@@ -8,11 +8,11 @@
         "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS"
     },
     "dashboardPageName": {
-        "message": "uMatrix — Kontrolpanel",
+        "message": "nuTensor — Kontrolpanel",
         "description": ""
     },
     "loggerPageName": {
-        "message": "uMatrix — Logger",
+        "message": "nuTensor — Logger",
         "description": "Title for the logger window"
     },
     "settingsPageName": {
@@ -164,7 +164,7 @@
         "description": "Used as a tooltip for the recipe padlock button"
     },
     "statsPageTitle": {
-        "message": "uMatrix &ndash; Statistik",
+        "message": "nuTensor &ndash; Statistik",
         "description": ""
     },
     "statsPageGenericStats": {
@@ -276,7 +276,7 @@
         "description": "Second part of Remember the last [n] HTTP requests per page"
     },
     "statsPageLogSizeHelp": {
-        "message": "<p>Du kan inspicerer detaljerne for de seneste \"rå\" HTTP-forespørgsler, der er blevet foretaget af en webside (se nedenfor).</p><p>Dette er mest nyttigt for erfarne brugere, der ønsker at undersøge præcis hvad en webside har lavet. Men logningen af disse HTTP-forespørgsler kræver hukommelse, så hvis du er ligeglad med denne tekniske information, er det øgede forbrug af hukommelse spildt.</p><p>Derfor dette felt, som lader dig justere det maskimale antal nyeste HTTP-forespørgsler, som skal logges til yderligere inspektion.</p><p>Skriv &ldquo;<code>0</code>&rdquo; for at slå detaljeret logning fra (og dermed reducere hukommelsesforbruget for <i>uMatrix</i>).</p>",
+        "message": "<p>Du kan inspicerer detaljerne for de seneste \"rå\" HTTP-forespørgsler, der er blevet foretaget af en webside (se nedenfor).</p><p>Dette er mest nyttigt for erfarne brugere, der ønsker at undersøge præcis hvad en webside har lavet. Men logningen af disse HTTP-forespørgsler kræver hukommelse, så hvis du er ligeglad med denne tekniske information, er det øgede forbrug af hukommelse spildt.</p><p>Derfor dette felt, som lader dig justere det maskimale antal nyeste HTTP-forespørgsler, som skal logges til yderligere inspektion.</p><p>Skriv &ldquo;<code>0</code>&rdquo; for at slå detaljeret logning fra (og dermed reducere hukommelsesforbruget for <i>nuTensor</i>).</p>",
         "description": "To help user understand the purpose of the log size value"
     },
     "statsPageRefresh": {
@@ -432,7 +432,7 @@
         "description": "Label for radio-button to pick export text format"
     },
     "settingsPageTitle": {
-        "message": "uMatrix &ndash; Indstillinger",
+        "message": "nuTensor &ndash; Indstillinger",
         "description": ""
     },
     "settingsMatrixDisplayHeader": {
@@ -492,7 +492,7 @@
         "description": ""
     },
     "privacyPageTitle": {
-        "message": "uMatrix &ndash; Privatliv",
+        "message": "nuTensor &ndash; Privatliv",
         "description": ""
     },
     "privacyDeleteBlockedCookiesPrompt": {
@@ -500,7 +500,7 @@
         "description": ""
     },
     "privacyDeleteBlockedCookiesHelp": {
-        "message": "<p>Sortlistede cookies bliver ikke forhindret af <i>uMatrix</i> i at trænge ind i din browser. Derimod bliver de forhindret i at forlade din browser igen, hvilket faktisk er det vigtige. Ved ikke at blokere cookies inden de trænger ind i din browser, gøres det muligt for brugeren at undersøge indholdet og antallet af de cookies diverse websteder placerer i din browser.</p><p>Når disse sortlistede cookies er blevet undersøgt af <i>uMatrix</i>, kan de blive slettet, hvis brugeren ønsker det.</p><p><b>Vigtig bemærkning:</b> Udvidelser kan benytte sig af cookies i deres helt legale webkommunikation. Hvis det værtsnavn, som en cookie kommer fra, ikke er hvidlistet, vil denne cookie blive fjernet fra browseren af <i>uMatrix</i>, hvis denne indstilling er slået til. Du skal derfor sikre dig, at de værtsnavne, som en udvidelse kommunikerer med, er hvidlistede.</p>",
+        "message": "<p>Sortlistede cookies bliver ikke forhindret af <i>nuTensor</i> i at trænge ind i din browser. Derimod bliver de forhindret i at forlade din browser igen, hvilket faktisk er det vigtige. Ved ikke at blokere cookies inden de trænger ind i din browser, gøres det muligt for brugeren at undersøge indholdet og antallet af de cookies diverse websteder placerer i din browser.</p><p>Når disse sortlistede cookies er blevet undersøgt af <i>nuTensor</i>, kan de blive slettet, hvis brugeren ønsker det.</p><p><b>Vigtig bemærkning:</b> Udvidelser kan benytte sig af cookies i deres helt legale webkommunikation. Hvis det værtsnavn, som en cookie kommer fra, ikke er hvidlistet, vil denne cookie blive fjernet fra browseren af <i>nuTensor</i>, hvis denne indstilling er slået til. Du skal derfor sikre dig, at de værtsnavne, som en udvidelse kommunikerer med, er hvidlistede.</p>",
         "description": ""
     },
     "privacyDeleteNonBlockedSessionCookiesPrompt1": {
@@ -532,7 +532,7 @@
         "description": "Second part of 'Clear browser cache every [n] minutes'"
     },
     "privacyClearCacheHelp": {
-        "message": "<p>Nogle hjemmesider er meget opsatte på at tracke din færden på internettet, faktisk så meget at de er villige til at benytte sig af ikke-så-flinke metoder til at omgå de tiltag du tager for at beskytte dig selv mod tracking.</p><p>Nogle af disse metoder benytter sig af<sup style='font-size:smaller'>[1, 2]</sup> af din <a href='https://en.wikipedia.org/wiki/Web_cache'>browsers cache</a>, hvis indhold ofte bliver gemt meget længe, og ydermere er der nogle brugere der ikke sletter deres browers cache ofte.</p><p>Der er ikke rigtigt nogen negative effekter ved at slette din browers cache ofte (højst sandsynligt vil du ikke opdage det), men derimod er gevinsten stor ift. at stoppe trackers fra at invadere dit privatliv.</p><p>Vælg denne indstilling, hvis du vil have <i>uMatrix</i> til at slette din browsers cache for dig, så ofte du ønsker det.</p><p style='font-size:smaller'>[1] <a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Preventing Web Tracking via the Browser Cache&rdquo;</a><br>[2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;</a></p>",
+        "message": "<p>Nogle hjemmesider er meget opsatte på at tracke din færden på internettet, faktisk så meget at de er villige til at benytte sig af ikke-så-flinke metoder til at omgå de tiltag du tager for at beskytte dig selv mod tracking.</p><p>Nogle af disse metoder benytter sig af<sup style='font-size:smaller'>[1, 2]</sup> af din <a href='https://en.wikipedia.org/wiki/Web_cache'>browsers cache</a>, hvis indhold ofte bliver gemt meget længe, og ydermere er der nogle brugere der ikke sletter deres browers cache ofte.</p><p>Der er ikke rigtigt nogen negative effekter ved at slette din browers cache ofte (højst sandsynligt vil du ikke opdage det), men derimod er gevinsten stor ift. at stoppe trackers fra at invadere dit privatliv.</p><p>Vælg denne indstilling, hvis du vil have <i>nuTensor</i> til at slette din browsers cache for dig, så ofte du ønsker det.</p><p style='font-size:smaller'>[1] <a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Preventing Web Tracking via the Browser Cache&rdquo;</a><br>[2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;</a></p>",
         "description": ""
     },
     "privacyProcessRefererPrompt": {
@@ -540,7 +540,7 @@
         "description": ""
     },
     "privacyProcessRefererHelp": {
-        "message": "<p>Fra Wikipedia:</p><blockquote>HTTP referer is an HTTP header field that identifies the address of the webpage that linked to the resource being requested. ... <b>Because referer information can violate privacy, some web browsers allow the user to disable the sending of referer information.</b></blockquote><p>Hvis denne indstilling vælges, <i>vil uMatrix</i> forfalske den information som HTTP referreren indeholder, hvis netanmodningen om HTTP referreren kommer fra en tredjepart.",
+        "message": "<p>Fra Wikipedia:</p><blockquote>HTTP referer is an HTTP header field that identifies the address of the webpage that linked to the resource being requested. ... <b>Because referer information can violate privacy, some web browsers allow the user to disable the sending of referer information.</b></blockquote><p>Hvis denne indstilling vælges, <i>vil nuTensor</i> forfalske den information som HTTP referreren indeholder, hvis netanmodningen om HTTP referreren kommer fra en tredjepart.",
         "description": ""
     },
     "privacyNoMixedContentPrompt": {
@@ -684,7 +684,7 @@
         "description": ""
     },
     "aboutChangelog": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/releases'>Change log</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/releases'>Change log</a>",
         "description": ""
     },
     "aboutStorageUsed": {
@@ -692,7 +692,7 @@
         "description": ""
     },
     "aboutDoc": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/wiki'>Dokumentation</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/wiki'>Dokumentation</a>",
         "description": ""
     },
     "aboutPermissions": {
@@ -740,7 +740,7 @@
         "description": ""
     },
     "aboutRestoreConfirm": {
-        "message": "Alle dine indstillinger vil blive overskrevet med data fra backupfilen fra {{time}}, herefter vil uMatrix genstarte.\n\nGendan fra backupfilen?",
+        "message": "Alle dine indstillinger vil blive overskrevet med data fra backupfilen fra {{time}}, herefter vil nuTensor genstarte.\n\nGendan fra backupfilen?",
         "description": "Message asking user to confirm restore"
     },
     "aboutRestoreError": {
@@ -760,8 +760,8 @@
         "description": "Message asking user to confirm reset"
     },
     "mainBlockedPrompt1": {
-        "message": "uMatrix har blokeret den følgende webside:",
-        "description": "English: uMatrix has prevented the following page from loading:"
+        "message": "nuTensor har blokeret den følgende webside:",
+        "description": "English: nuTensor has prevented the following page from loading:"
     },
     "mainBlockedPrompt2": {
         "message": "På grund af den følgende regel",

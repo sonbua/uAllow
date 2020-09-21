@@ -1,6 +1,6 @@
 {
     "extName": {
-        "message": "uMatrix",
+        "message": "nuTensor",
         "description": ""
     },
     "extShortDesc": {
@@ -8,11 +8,11 @@
         "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS"
     },
     "dashboardPageName": {
-        "message": "uMatrix — Контролна табла",
+        "message": "nuTensor — Контролна табла",
         "description": ""
     },
     "loggerPageName": {
-        "message": "uMatrix — Евиденција",
+        "message": "nuTensor — Евиденција",
         "description": "Title for the logger window"
     },
     "settingsPageName": {
@@ -164,7 +164,7 @@
         "description": "Used as a tooltip for the recipe padlock button"
     },
     "statsPageTitle": {
-        "message": "uMatrix &ndash; Статистика",
+        "message": "nuTensor &ndash; Статистика",
         "description": ""
     },
     "statsPageGenericStats": {
@@ -276,7 +276,7 @@
         "description": "Second part of Remember the last [n] HTTP requests per page"
     },
     "statsPageLogSizeHelp": {
-        "message": "<p>Можете прегледати детаље најновијих HTTP захтева креираних од стране веб странице (видети испод).</p><p>Ово је нарочито корисно напредним корисницима који желе да сазнају шта је тачно страница радила. Али за евидентирање ових HTTP захтева потребна је меморија, па ако вам није битна ова техничка информација, то значи повећање заузећа меморије.</p><p>Дакле, ово поље вам омогућава да подесите максимални број најновијих HTTP захтева које треба да се евидентирају ради даљег испитивања.</p><p>Унесите &ldquo;<code>0</code>&rdquo; за искључивање детаљног евидентирања (и смањења заузећа меморије од стране додатка <i>uMatrix</i>).</p>",
+        "message": "<p>Можете прегледати детаље најновијих HTTP захтева креираних од стране веб странице (видети испод).</p><p>Ово је нарочито корисно напредним корисницима који желе да сазнају шта је тачно страница радила. Али за евидентирање ових HTTP захтева потребна је меморија, па ако вам није битна ова техничка информација, то значи повећање заузећа меморије.</p><p>Дакле, ово поље вам омогућава да подесите максимални број најновијих HTTP захтева које треба да се евидентирају ради даљег испитивања.</p><p>Унесите &ldquo;<code>0</code>&rdquo; за искључивање детаљног евидентирања (и смањења заузећа меморије од стране додатка <i>nuTensor</i>).</p>",
         "description": "To help user understand the purpose of the log size value"
     },
     "statsPageRefresh": {
@@ -432,7 +432,7 @@
         "description": "Label for radio-button to pick export text format"
     },
     "settingsPageTitle": {
-        "message": "uMatrix &ndash; Подешавања",
+        "message": "nuTensor &ndash; Подешавања",
         "description": ""
     },
     "settingsMatrixDisplayHeader": {
@@ -492,7 +492,7 @@
         "description": ""
     },
     "privacyPageTitle": {
-        "message": "uMatrix &ndash; Приватност",
+        "message": "nuTensor &ndash; Приватност",
         "description": ""
     },
     "privacyDeleteBlockedCookiesPrompt": {
@@ -500,7 +500,7 @@
         "description": ""
     },
     "privacyDeleteBlockedCookiesHelp": {
-        "message": "<p><i>uMatrix</i> не спречава улазак блокираних колачића у ваш прегледач али их спречава да га напусте и то је оно што је у ствари важно. Неблокирање колачића пре него што уђу у прегледач вам даје могућност да будете упознати са тим да сајт покушава да користи колачиће, као и да испитујете њихов садржај, уколико то желите.</p><p>Чим <i>uMatrix</i> обрачуна ове колачиће, можете их уклонити ако то желите.</p><p><b>Важна напомена</b>Проширења могу креирати веб захтеве током свог нормалног рада. Ови захтеви могу довести до креирања колачића у прегледачу. Ако сајт одакле потиче колачић није на белој листи, онда ће <i>uMatrix</i> уклонити колачић из прегледача ако је ова опција омогућена. Зато будите сигурни да сајт са којим проширење комуницира буде на белој листи.</p>",
+        "message": "<p><i>nuTensor</i> не спречава улазак блокираних колачића у ваш прегледач али их спречава да га напусте и то је оно што је у ствари важно. Неблокирање колачића пре него што уђу у прегледач вам даје могућност да будете упознати са тим да сајт покушава да користи колачиће, као и да испитујете њихов садржај, уколико то желите.</p><p>Чим <i>nuTensor</i> обрачуна ове колачиће, можете их уклонити ако то желите.</p><p><b>Важна напомена</b>Проширења могу креирати веб захтеве током свог нормалног рада. Ови захтеви могу довести до креирања колачића у прегледачу. Ако сајт одакле потиче колачић није на белој листи, онда ће <i>nuTensor</i> уклонити колачић из прегледача ако је ова опција омогућена. Зато будите сигурни да сајт са којим проширење комуницира буде на белој листи.</p>",
         "description": ""
     },
     "privacyDeleteNonBlockedSessionCookiesPrompt1": {
@@ -532,7 +532,7 @@
         "description": "Second part of 'Clear browser cache every [n] minutes'"
     },
     "privacyClearCacheHelp": {
-        "message": "<p>Неки веб сајтови су стварно решени да вас прате, толико да ће користити не баш лепе трикове да би заобишли све мере које предузимате да бисте избегли праћење.</p><p>Неко од ових трикова се заснивају<sup style='font-size:smaller'>[1, 2]</sup>на<a href='https://en.wikipedia.org/wiki/Web_cache'>кешу прегледача</a>,чији је садржај често дуготрајан, пошто корисници ретко одвајају мало времена да редовно чисте кеш прегледача.</p><p>Мало је непријатно редовно чистити кеш прегледача, а корист се огледа у томе да се спрече ови одвратни трагачи да упадају у вашу приватност.</p><p>Омогућите ову опцију да <i>uMatrix</i> то ради уместо вас, у временском интервалу који желите.</p><p style='font-size:smaller'>[1] <a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Спречавање веб праћења преко кеша прегледача&rdquo;</a><br>[2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;</a></p>",
+        "message": "<p>Неки веб сајтови су стварно решени да вас прате, толико да ће користити не баш лепе трикове да би заобишли све мере које предузимате да бисте избегли праћење.</p><p>Неко од ових трикова се заснивају<sup style='font-size:smaller'>[1, 2]</sup>на<a href='https://en.wikipedia.org/wiki/Web_cache'>кешу прегледача</a>,чији је садржај често дуготрајан, пошто корисници ретко одвајају мало времена да редовно чисте кеш прегледача.</p><p>Мало је непријатно редовно чистити кеш прегледача, а корист се огледа у томе да се спрече ови одвратни трагачи да упадају у вашу приватност.</p><p>Омогућите ову опцију да <i>nuTensor</i> то ради уместо вас, у временском интервалу који желите.</p><p style='font-size:smaller'>[1] <a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Спречавање веб праћења преко кеша прегледача&rdquo;</a><br>[2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;</a></p>",
         "description": ""
     },
     "privacyProcessRefererPrompt": {
@@ -540,7 +540,7 @@
         "description": ""
     },
     "privacyProcessRefererHelp": {
-        "message": "<p>Са Википедије</p><blockquote>HTTP referer је HTTP заглавље које идентификује адресу веб странице који је повезан са извором који се тражи. ... <b>Пошто ове информације могу нарушити приватност, неки прегледачи дозвољавају корисницима да онемогуће слање ових информација.</b></blockquote><p>Ако је ова опција омогућена, <i>uMatrix</i> ће лажирати информацију ако је сајт, наведен у HTTP referrer, трећа страна у односу на захтевани.",
+        "message": "<p>Са Википедије</p><blockquote>HTTP referer је HTTP заглавље које идентификује адресу веб странице који је повезан са извором који се тражи. ... <b>Пошто ове информације могу нарушити приватност, неки прегледачи дозвољавају корисницима да онемогуће слање ових информација.</b></blockquote><p>Ако је ова опција омогућена, <i>nuTensor</i> ће лажирати информацију ако је сајт, наведен у HTTP referrer, трећа страна у односу на захтевани.",
         "description": ""
     },
     "privacyNoMixedContentPrompt": {
@@ -684,7 +684,7 @@
         "description": ""
     },
     "aboutChangelog": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/releases'>Списак измена</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/releases'>Списак измена</a>",
         "description": ""
     },
     "aboutStorageUsed": {
@@ -692,7 +692,7 @@
         "description": ""
     },
     "aboutDoc": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/wiki'>Документација</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/wiki'>Документација</a>",
         "description": ""
     },
     "aboutPermissions": {
@@ -740,7 +740,7 @@
         "description": ""
     },
     "aboutRestoreConfirm": {
-        "message": "Сва ваша подешавања ће бити замењена резервном копијом од {{time}}, и uMatrix ће бити поново покренут.\n\nЗаменити сва постојећа подешавања резервном копијом?",
+        "message": "Сва ваша подешавања ће бити замењена резервном копијом од {{time}}, и nuTensor ће бити поново покренут.\n\nЗаменити сва постојећа подешавања резервном копијом?",
         "description": "Message asking user to confirm restore"
     },
     "aboutRestoreError": {
@@ -760,8 +760,8 @@
         "description": "Message asking user to confirm reset"
     },
     "mainBlockedPrompt1": {
-        "message": "uMatrix је спречио учитавање следеће странице:",
-        "description": "English: uMatrix has prevented the following page from loading:"
+        "message": "nuTensor је спречио учитавање следеће странице:",
+        "description": "English: nuTensor has prevented the following page from loading:"
     },
     "mainBlockedPrompt2": {
         "message": "Због следећег правила",

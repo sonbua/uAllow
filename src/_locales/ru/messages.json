@@ -1,6 +1,6 @@
 {
     "extName": {
-        "message": "uMatrix",
+        "message": "nuTensor",
         "description": ""
     },
     "extShortDesc": {
@@ -8,11 +8,11 @@
         "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS"
     },
     "dashboardPageName": {
-        "message": "uMatrix — Панель управления",
+        "message": "nuTensor — Панель управления",
         "description": ""
     },
     "loggerPageName": {
-        "message": "uMatrix — Журнал сетевых запросов",
+        "message": "nuTensor — Журнал сетевых запросов",
         "description": "Title for the logger window"
     },
     "settingsPageName": {
@@ -164,7 +164,7 @@
         "description": "Used as a tooltip for the recipe padlock button"
     },
     "statsPageTitle": {
-        "message": "uMatrix &ndash; Статистика",
+        "message": "nuTensor &ndash; Статистика",
         "description": ""
     },
     "statsPageGenericStats": {
@@ -276,7 +276,7 @@
         "description": "Second part of Remember the last [n] HTTP requests per page"
     },
     "statsPageLogSizeHelp": {
-        "message": "<p>Вы можете детально изучить последние необработанные HTTP запросы, которые были сделаны веб-страницей (см. ниже).</p><p>Это особенно полезно для продвинутых пользователей, которые хотят узнать, что конкретно делала веб-страница. Однако журналирование этих HTTP запросов увеличивает потребление памяти, и если вас не интересует эта техническая информация, то это - трата памяти.</p><p>Это поле позволяет вам настроить максимальное число последних HTTP запросов, которые будут храниться в журнале для последующего изучения.</p><p>Введите &ldquo;<code>0</code>&rdquo; чтобы отключить журналирование (и соответственно уменьшить потребление памяти <i>uMatrix</i>).</p>",
+        "message": "<p>Вы можете детально изучить последние необработанные HTTP запросы, которые были сделаны веб-страницей (см. ниже).</p><p>Это особенно полезно для продвинутых пользователей, которые хотят узнать, что конкретно делала веб-страница. Однако журналирование этих HTTP запросов увеличивает потребление памяти, и если вас не интересует эта техническая информация, то это - трата памяти.</p><p>Это поле позволяет вам настроить максимальное число последних HTTP запросов, которые будут храниться в журнале для последующего изучения.</p><p>Введите &ldquo;<code>0</code>&rdquo; чтобы отключить журналирование (и соответственно уменьшить потребление памяти <i>nuTensor</i>).</p>",
         "description": "To help user understand the purpose of the log size value"
     },
     "statsPageRefresh": {
@@ -432,7 +432,7 @@
         "description": "Label for radio-button to pick export text format"
     },
     "settingsPageTitle": {
-        "message": "uMatrix &ndash; Настройки",
+        "message": "nuTensor &ndash; Настройки",
         "description": ""
     },
     "settingsMatrixDisplayHeader": {
@@ -492,7 +492,7 @@
         "description": ""
     },
     "privacyPageTitle": {
-        "message": "uMatrix &ndash; Приватность",
+        "message": "nuTensor &ndash; Приватность",
         "description": ""
     },
     "privacyDeleteBlockedCookiesPrompt": {
@@ -500,7 +500,7 @@
         "description": ""
     },
     "privacyDeleteBlockedCookiesHelp": {
-        "message": "<p>Запрещенные куки не блокируются <i>uMatrix</i> при входе в ваш браузер. Однако их передача из браузера предотвращается - вот что действительно важно. Неблокировка куки файлов до того, как они сохраняются браузером дает вам возможность узнать, что сайт пытался использовать куки, и потом изучить их содержимое, если вы хотите.</p><p>Как только эти запрещенные куки составлены <i>uMatrix</i>, они могут быть удалены из браузера, по вашему желанию.</p><p><b>Важное замечание:</b> Расширения могут осуществлять веб-запросы во время своей обычной работы. Эти запросы могут порождать создание куки файлов в браузере. Если имя хоста (сайта), от которого создается куки не в белом списке, то <i>uMatrix</i> удалит эти куки из браузера, если эта опция включена. Поэтому убедитесь, что имена хостов (сайтов) с которыми соединяется расширение добавлено в белый список.</p>",
+        "message": "<p>Запрещенные куки не блокируются <i>nuTensor</i> при входе в ваш браузер. Однако их передача из браузера предотвращается - вот что действительно важно. Неблокировка куки файлов до того, как они сохраняются браузером дает вам возможность узнать, что сайт пытался использовать куки, и потом изучить их содержимое, если вы хотите.</p><p>Как только эти запрещенные куки составлены <i>nuTensor</i>, они могут быть удалены из браузера, по вашему желанию.</p><p><b>Важное замечание:</b> Расширения могут осуществлять веб-запросы во время своей обычной работы. Эти запросы могут порождать создание куки файлов в браузере. Если имя хоста (сайта), от которого создается куки не в белом списке, то <i>nuTensor</i> удалит эти куки из браузера, если эта опция включена. Поэтому убедитесь, что имена хостов (сайтов) с которыми соединяется расширение добавлено в белый список.</p>",
         "description": ""
     },
     "privacyDeleteNonBlockedSessionCookiesPrompt1": {
@@ -532,7 +532,7 @@
         "description": "Second part of 'Clear browser cache every [n] minutes'"
     },
     "privacyClearCacheHelp": {
-        "message": "<p>Некоторые сайты идут на всевозможные ухищрения для того, чтобы обойти любые меры, предпринятые для защиты от отслеживания.</p><p>Некоторые ухищрения основаны<sup>[1, 2]</sup> на использовании <a href='https://en.wikipedia.org/wiki/Web_cache'>кэша браузера</a>, содержимое которого зачастую хранится длительное время, потому что пользователи нерегулярно его очищают.</p><p>Регулярная очистка кэша предотвращает отслеживание, однако делать это вручную не всегда удобно.</p><p>Включение данной опции позволит <i>uMatrix</i> делать это за вас с заданным интервалом времени.</p><p>[1] <a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Preventing Web Tracking via the Browser Cache&rdquo;</a>[2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;</a></p>",
+        "message": "<p>Некоторые сайты идут на всевозможные ухищрения для того, чтобы обойти любые меры, предпринятые для защиты от отслеживания.</p><p>Некоторые ухищрения основаны<sup>[1, 2]</sup> на использовании <a href='https://en.wikipedia.org/wiki/Web_cache'>кэша браузера</a>, содержимое которого зачастую хранится длительное время, потому что пользователи нерегулярно его очищают.</p><p>Регулярная очистка кэша предотвращает отслеживание, однако делать это вручную не всегда удобно.</p><p>Включение данной опции позволит <i>nuTensor</i> делать это за вас с заданным интервалом времени.</p><p>[1] <a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Preventing Web Tracking via the Browser Cache&rdquo;</a>[2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;</a></p>",
         "description": ""
     },
     "privacyProcessRefererPrompt": {
@@ -540,7 +540,7 @@
         "description": ""
     },
     "privacyProcessRefererHelp": {
-        "message": "Материал из Википедии:<blockquote>HTTP referer — это HTTP заголовок, который указывает адрес страницы, содержащей ссылку на запрошенный ресурс. ... <b>Поскольку эта информация может нарушать конфиденциальность, некоторые браузеры позволяют запретить её передачу.</b></blockquote>Если эта опция включена, <i>uMatrix</i> будет подменять HTTP referer, если сайт, указанный в HTTP referer, является сторонним по отношению к запрашиваемому ресурсу.",
+        "message": "Материал из Википедии:<blockquote>HTTP referer — это HTTP заголовок, который указывает адрес страницы, содержащей ссылку на запрошенный ресурс. ... <b>Поскольку эта информация может нарушать конфиденциальность, некоторые браузеры позволяют запретить её передачу.</b></blockquote>Если эта опция включена, <i>nuTensor</i> будет подменять HTTP referer, если сайт, указанный в HTTP referer, является сторонним по отношению к запрашиваемому ресурсу.",
         "description": ""
     },
     "privacyNoMixedContentPrompt": {
@@ -684,7 +684,7 @@
         "description": ""
     },
     "aboutChangelog": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/releases'>Список изменений</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/releases'>Список изменений</a>",
         "description": ""
     },
     "aboutStorageUsed": {
@@ -692,11 +692,11 @@
         "description": ""
     },
     "aboutDoc": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/wiki'>Документация</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/wiki'>Документация</a>",
         "description": ""
     },
     "aboutPermissions": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/wiki/Permissions'>Разрешения</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/wiki/Permissions'>Разрешения</a>",
         "description": ""
     },
     "aboutCode": {
@@ -740,7 +740,7 @@
         "description": ""
     },
     "aboutRestoreConfirm": {
-        "message": "Все ваши настройки будут перезаписаны резервными данными от {{time}}, и uMatrix перезагрузится.\n\nИзменить все настройки, используя эту резервную копию?",
+        "message": "Все ваши настройки будут перезаписаны резервными данными от {{time}}, и nuTensor перезагрузится.\n\nИзменить все настройки, используя эту резервную копию?",
         "description": "Message asking user to confirm restore"
     },
     "aboutRestoreError": {
@@ -760,8 +760,8 @@
         "description": "Message asking user to confirm reset"
     },
     "mainBlockedPrompt1": {
-        "message": "uMatrix предотвратил загрузку следующей страницы:",
-        "description": "English: uMatrix has prevented the following page from loading:"
+        "message": "nuTensor предотвратил загрузку следующей страницы:",
+        "description": "English: nuTensor has prevented the following page from loading:"
     },
     "mainBlockedPrompt2": {
         "message": "Из-за следующего правила",

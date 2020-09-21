@@ -1,6 +1,6 @@
 {
     "extName": {
-        "message": "uMatrix",
+        "message": "nuTensor",
         "description": ""
     },
     "extShortDesc": {
@@ -8,11 +8,11 @@
         "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS"
     },
     "dashboardPageName": {
-        "message": "uMatrix — Översiktspanel",
+        "message": "nuTensor — Översiktspanel",
         "description": ""
     },
     "loggerPageName": {
-        "message": "uMatrix — Loggare",
+        "message": "nuTensor — Loggare",
         "description": "Title for the logger window"
     },
     "settingsPageName": {
@@ -164,7 +164,7 @@
         "description": "Used as a tooltip for the recipe padlock button"
     },
     "statsPageTitle": {
-        "message": "uMatrix &ndash; Statistik",
+        "message": "nuTensor &ndash; Statistik",
         "description": ""
     },
     "statsPageGenericStats": {
@@ -276,7 +276,7 @@
         "description": "Second part of Remember the last [n] HTTP requests per page"
     },
     "statsPageLogSizeHelp": {
-        "message": "<p>Du kan inspektera de senaste råa HTTP-frågningarna gjorda från en sida (se nedan).</p><p>Det är mest till för erfarna användare som vill undersöka exakt vad webbsidan har gjort. Loggningen kräver dock plats och om du inte bryr dig om tekniska detaljer så kommer det slösa på minnet.</p><p>Därför finns detta fält som låter dig justera hur många av de senaste HTTP-förfrågningarna som som loggas.</p><p>Ange &ldquo;<code>0</code>&rdquo; för att stänga av detaljerad loggning (och således minska minneskravet från <i>uMatrix</i>).</p>",
+        "message": "<p>Du kan inspektera de senaste råa HTTP-frågningarna gjorda från en sida (se nedan).</p><p>Det är mest till för erfarna användare som vill undersöka exakt vad webbsidan har gjort. Loggningen kräver dock plats och om du inte bryr dig om tekniska detaljer så kommer det slösa på minnet.</p><p>Därför finns detta fält som låter dig justera hur många av de senaste HTTP-förfrågningarna som som loggas.</p><p>Ange &ldquo;<code>0</code>&rdquo; för att stänga av detaljerad loggning (och således minska minneskravet från <i>nuTensor</i>).</p>",
         "description": "To help user understand the purpose of the log size value"
     },
     "statsPageRefresh": {
@@ -432,7 +432,7 @@
         "description": "Label for radio-button to pick export text format"
     },
     "settingsPageTitle": {
-        "message": "uMatrix &ndash; Inställningar",
+        "message": "nuTensor &ndash; Inställningar",
         "description": ""
     },
     "settingsMatrixDisplayHeader": {
@@ -492,7 +492,7 @@
         "description": ""
     },
     "privacyPageTitle": {
-        "message": "uMatrix &ndash; Integritet",
+        "message": "nuTensor &ndash; Integritet",
         "description": ""
     },
     "privacyDeleteBlockedCookiesPrompt": {
@@ -500,7 +500,7 @@
         "description": ""
     },
     "privacyDeleteBlockedCookiesHelp": {
-        "message": "<p>Svartlistade kakor hindras inte från att hamna i din webbläsare av <i>uMatrix</i>. De är dock skyddade från att lämna webbläsaren, vilket är det som räknas. Genom att inte blockera kakor från att hamna i din webbläsare får du möjligheten att se om en sida försökt att använda sig av kakor och du kan undersöka kakornas innehåll.</p><p>När kakorna har passerat <i>uMatrix</i>, kan de raderas om du så önskar.</p><p><b>Viktigt:</b> Webbläsartillägg kan göra förfrågningar till webben medan de arbetar. Dessa förfrågningar kan resultera i att kakor skapas i webbläsaren. Om värdnamnet för vilken en kaka kommer ifrån inte är vitlistat kommer kakan att tas bort av <i>uMatrix</i> om det är så inställt. Därför är det viktigt att kontrollera att värdnamnen som tillägg använder för att kommunicera är vitlistade.</p>",
+        "message": "<p>Svartlistade kakor hindras inte från att hamna i din webbläsare av <i>nuTensor</i>. De är dock skyddade från att lämna webbläsaren, vilket är det som räknas. Genom att inte blockera kakor från att hamna i din webbläsare får du möjligheten att se om en sida försökt att använda sig av kakor och du kan undersöka kakornas innehåll.</p><p>När kakorna har passerat <i>nuTensor</i>, kan de raderas om du så önskar.</p><p><b>Viktigt:</b> Webbläsartillägg kan göra förfrågningar till webben medan de arbetar. Dessa förfrågningar kan resultera i att kakor skapas i webbläsaren. Om värdnamnet för vilken en kaka kommer ifrån inte är vitlistat kommer kakan att tas bort av <i>nuTensor</i> om det är så inställt. Därför är det viktigt att kontrollera att värdnamnen som tillägg använder för att kommunicera är vitlistade.</p>",
         "description": ""
     },
     "privacyDeleteNonBlockedSessionCookiesPrompt1": {
@@ -532,7 +532,7 @@
         "description": "Second part of 'Clear browser cache every [n] minutes'"
     },
     "privacyClearCacheHelp": {
-        "message": "<p>Vissa webbplatser är fast beslutna att spåra dig, till den grad att de använda osjysta metoder för att ta sig runt dina försök att inte bli spårad.</p><p>Några av dessa metoder<sup style='font-size:smaller'>[1, 2]</sup> förlitar sig på <a href='https://en.wikipedia.org/wiki/Web_cache'>webbläsarcachen</a>, vars innehåll ofta är långvarigt eftersom användare sällar tar sig tiden att regelbundet rensa deras cache.</p><p>Det finns knappt några nackdelar med att rensa cachet i webbläsar regelbundet (troligen märker du inte ens när det sker) och fördelen är att du förhindrar att dessa irriterande förföljare kränker din integritet.</p><p>Kryssa i detta alternativ för att låta <i>uMatrix</i> göra detta åt dig, i det intervall du ställer in.</p><p style='font-size:smaller'>[1]<a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Preventing Web Tracking via the Browser Cache&rdquo;</a><br>[2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;</a></p>",
+        "message": "<p>Vissa webbplatser är fast beslutna att spåra dig, till den grad att de använda osjysta metoder för att ta sig runt dina försök att inte bli spårad.</p><p>Några av dessa metoder<sup style='font-size:smaller'>[1, 2]</sup> förlitar sig på <a href='https://en.wikipedia.org/wiki/Web_cache'>webbläsarcachen</a>, vars innehåll ofta är långvarigt eftersom användare sällar tar sig tiden att regelbundet rensa deras cache.</p><p>Det finns knappt några nackdelar med att rensa cachet i webbläsar regelbundet (troligen märker du inte ens när det sker) och fördelen är att du förhindrar att dessa irriterande förföljare kränker din integritet.</p><p>Kryssa i detta alternativ för att låta <i>nuTensor</i> göra detta åt dig, i det intervall du ställer in.</p><p style='font-size:smaller'>[1]<a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Preventing Web Tracking via the Browser Cache&rdquo;</a><br>[2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;</a></p>",
         "description": ""
     },
     "privacyProcessRefererPrompt": {
@@ -540,7 +540,7 @@
         "description": ""
     },
     "privacyProcessRefererHelp": {
-        "message": "<p>Översatt från Wikipedia:</p><blockquote>En HTTP-hänvisning (s.k. referer) är den delen i ett HTTP-sidhuvud som identifierar adressen på den sida som länkade till den nuvarande sidan som begärs. ... <b>Eftersom hänvisningen kan inskränka på integriteten tillåter vissa webbläsare användare att låta bli att skicka hänvisningsinformationen.</b></blockquote><p>Om inställningen är påslagen kommer <i>uMatrix</i> att lura domänen med en annan HTTP-hänvisningnsinformation i sidhuvudet, om det gäller en tredje partsdomän till domänen som gjort nätförfrågan.",
+        "message": "<p>Översatt från Wikipedia:</p><blockquote>En HTTP-hänvisning (s.k. referer) är den delen i ett HTTP-sidhuvud som identifierar adressen på den sida som länkade till den nuvarande sidan som begärs. ... <b>Eftersom hänvisningen kan inskränka på integriteten tillåter vissa webbläsare användare att låta bli att skicka hänvisningsinformationen.</b></blockquote><p>Om inställningen är påslagen kommer <i>nuTensor</i> att lura domänen med en annan HTTP-hänvisningnsinformation i sidhuvudet, om det gäller en tredje partsdomän till domänen som gjort nätförfrågan.",
         "description": ""
     },
     "privacyNoMixedContentPrompt": {
@@ -684,7 +684,7 @@
         "description": ""
     },
     "aboutChangelog": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/releases'>Ändringslogg</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/releases'>Ändringslogg</a>",
         "description": ""
     },
     "aboutStorageUsed": {
@@ -692,7 +692,7 @@
         "description": ""
     },
     "aboutDoc": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/wiki'>Dokumentation</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/wiki'>Dokumentation</a>",
         "description": ""
     },
     "aboutPermissions": {
@@ -740,7 +740,7 @@
         "description": ""
     },
     "aboutRestoreConfirm": {
-        "message": "Alla dina inställningar kommer att skrivas över med data från {{time}} och uMatrix kommer att startas om.\n\nVill du skriva över de existerande inställningarna med data från säkerhetskopian?",
+        "message": "Alla dina inställningar kommer att skrivas över med data från {{time}} och nuTensor kommer att startas om.\n\nVill du skriva över de existerande inställningarna med data från säkerhetskopian?",
         "description": "Message asking user to confirm restore"
     },
     "aboutRestoreError": {
@@ -760,8 +760,8 @@
         "description": "Message asking user to confirm reset"
     },
     "mainBlockedPrompt1": {
-        "message": "uMatrix har förhindrat denna sida från att laddas:",
-        "description": "English: uMatrix has prevented the following page from loading:"
+        "message": "nuTensor har förhindrat denna sida från att laddas:",
+        "description": "English: nuTensor has prevented the following page from loading:"
     },
     "mainBlockedPrompt2": {
         "message": "På grund av den här regeln",

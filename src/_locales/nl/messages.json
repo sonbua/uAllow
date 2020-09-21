@@ -1,6 +1,6 @@
 {
     "extName": {
-        "message": "uMatrix",
+        "message": "nuTensor",
         "description": ""
     },
     "extShortDesc": {
@@ -8,11 +8,11 @@
         "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS"
     },
     "dashboardPageName": {
-        "message": "uMatrix – Dashboard",
+        "message": "nuTensor – Dashboard",
         "description": ""
     },
     "loggerPageName": {
-        "message": "uMatrix – Logger",
+        "message": "nuTensor – Logger",
         "description": "Title for the logger window"
     },
     "settingsPageName": {
@@ -164,7 +164,7 @@
         "description": "Used as a tooltip for the recipe padlock button"
     },
     "statsPageTitle": {
-        "message": "uMatrix &ndash; Statistieken",
+        "message": "nuTensor &ndash; Statistieken",
         "description": ""
     },
     "statsPageGenericStats": {
@@ -276,7 +276,7 @@
         "description": "Second part of Remember the last [n] HTTP requests per page"
     },
     "statsPageLogSizeHelp": {
-        "message": "<p>Van de meest recente HTTP-aanvragen die door een website zijn gedaan, kunt u de details inspecteren.</p><p>Dit is vooral nuttig voor nieuwsgierige (ook ervaren) gebruikers die willen onderzoeken wat een webpagina precies heeft gedaan. Het registreren van deze HTTP-aanvragen vereist echter geheugen, en als u niets om deze technische informatie geeft, wordt geheugen verspild.</p><p>Vandaar dit veld, waarmee u het maximale aantal meest recente HTTP-aanvragen kunt instellen dat voor nader onderzoek wordt geregistreerd.</p><p>Vul &lsquo;<code>0</code>&rsquo; in om gedetailleerde registratie uit te zetten (en daardoor de geheugenfootprint van <i>uMatrix</i> te verlagen).</p>",
+        "message": "<p>Van de meest recente HTTP-aanvragen die door een website zijn gedaan, kunt u de details inspecteren.</p><p>Dit is vooral nuttig voor nieuwsgierige (ook ervaren) gebruikers die willen onderzoeken wat een webpagina precies heeft gedaan. Het registreren van deze HTTP-aanvragen vereist echter geheugen, en als u niets om deze technische informatie geeft, wordt geheugen verspild.</p><p>Vandaar dit veld, waarmee u het maximale aantal meest recente HTTP-aanvragen kunt instellen dat voor nader onderzoek wordt geregistreerd.</p><p>Vul &lsquo;<code>0</code>&rsquo; in om gedetailleerde registratie uit te zetten (en daardoor de geheugenfootprint van <i>nuTensor</i> te verlagen).</p>",
         "description": "To help user understand the purpose of the log size value"
     },
     "statsPageRefresh": {
@@ -432,7 +432,7 @@
         "description": "Label for radio-button to pick export text format"
     },
     "settingsPageTitle": {
-        "message": "uMatrix &ndash; Instellingen",
+        "message": "nuTensor &ndash; Instellingen",
         "description": ""
     },
     "settingsMatrixDisplayHeader": {
@@ -492,7 +492,7 @@
         "description": ""
     },
     "privacyPageTitle": {
-        "message": "uMatrix &ndash; Privacy",
+        "message": "nuTensor &ndash; Privacy",
         "description": ""
     },
     "privacyDeleteBlockedCookiesPrompt": {
@@ -500,7 +500,7 @@
         "description": ""
     },
     "privacyDeleteBlockedCookiesHelp": {
-        "message": "<p><i>uMatrix</i> voorkomt niet dat geblackliste cookies door uw browser worden ontvangen. Er wordt echter wel voorkomen dat ze uw browser verlaten, wat het belangrijkste is. Het niet blokkeren van cookies voordat ze door uw browser worden ontvangen biedt de mogelijkheid te worden geïnformeerd wanneer een website cookies probeerde te gebruiken, en daarnaast eventueel de inhoud ervan te inspecteren.</p><p>Als deze geblackliste cookies eenmaal door <i>uMatrix</i> zijn verwerkt, kunnen ze desgewenst uit uw browser worden verwijderd.</p><p><b>Belangrijke opmerking:</b> extensies kunnen tijdens hun normale werking webaanvragen doen. Door deze aanvragen kunnen cookies in de browser worden aangemaakt. Als de hostnaam waarvan een cookie afkomstig is zich niet op de whitelist bevindt, zal het cookie als deze optie is aangevinkt door <i>uMatrix</i> uit de browser worden verwijderd. Zorg er daarom voor dat de namen van de hosts waarmee een extensie communiceert zich op de whitelist bevinden.</p>",
+        "message": "<p><i>nuTensor</i> voorkomt niet dat geblackliste cookies door uw browser worden ontvangen. Er wordt echter wel voorkomen dat ze uw browser verlaten, wat het belangrijkste is. Het niet blokkeren van cookies voordat ze door uw browser worden ontvangen biedt de mogelijkheid te worden geïnformeerd wanneer een website cookies probeerde te gebruiken, en daarnaast eventueel de inhoud ervan te inspecteren.</p><p>Als deze geblackliste cookies eenmaal door <i>nuTensor</i> zijn verwerkt, kunnen ze desgewenst uit uw browser worden verwijderd.</p><p><b>Belangrijke opmerking:</b> extensies kunnen tijdens hun normale werking webaanvragen doen. Door deze aanvragen kunnen cookies in de browser worden aangemaakt. Als de hostnaam waarvan een cookie afkomstig is zich niet op de whitelist bevindt, zal het cookie als deze optie is aangevinkt door <i>nuTensor</i> uit de browser worden verwijderd. Zorg er daarom voor dat de namen van de hosts waarmee een extensie communiceert zich op de whitelist bevinden.</p>",
         "description": ""
     },
     "privacyDeleteNonBlockedSessionCookiesPrompt1": {
@@ -532,7 +532,7 @@
         "description": "Second part of 'Clear browser cache every [n] minutes'"
     },
     "privacyClearCacheHelp": {
-        "message": "<p>Sommige websites zijn er zo op gericht om u te traceren dat ze onvriendelijke trucs gebruiken om maatregelen die u neemt om niet te worden gevolgd te omzeilen.</p><p>Sommige van deze trucs gebruiken<sup>[1, 2]</sup> de <a href='https://en.wikipedia.org/wiki/Web_cache'>browsercache</a>, waarvan de inhoud vaak lang aanwezig is, aangezien gebruikers zelden de tijd nemen om hun browsercache regelmatig te wissen.</p><p>Het regelmatig wissen van de browsercache biedt weinig ongemakken (waarschijnlijk merkt u het niet als dit gebeurt), en het voordeel is dat wordt voorkomen dat deze onaangename trackers inbreuk op uw privacy maken.</p><p>Vink deze optie aan om dit met een gewenst interval door <i>uMatrix</i> te laten doen.</p><p>[1] <a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&lsquo;Preventing Web Tracking via the Browser Cache&rsquo;</a>\n[2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&lsquo;Cookieless cookies&rsquo;</a></p>",
+        "message": "<p>Sommige websites zijn er zo op gericht om u te traceren dat ze onvriendelijke trucs gebruiken om maatregelen die u neemt om niet te worden gevolgd te omzeilen.</p><p>Sommige van deze trucs gebruiken<sup>[1, 2]</sup> de <a href='https://en.wikipedia.org/wiki/Web_cache'>browsercache</a>, waarvan de inhoud vaak lang aanwezig is, aangezien gebruikers zelden de tijd nemen om hun browsercache regelmatig te wissen.</p><p>Het regelmatig wissen van de browsercache biedt weinig ongemakken (waarschijnlijk merkt u het niet als dit gebeurt), en het voordeel is dat wordt voorkomen dat deze onaangename trackers inbreuk op uw privacy maken.</p><p>Vink deze optie aan om dit met een gewenst interval door <i>nuTensor</i> te laten doen.</p><p>[1] <a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&lsquo;Preventing Web Tracking via the Browser Cache&rsquo;</a>\n[2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&lsquo;Cookieless cookies&rsquo;</a></p>",
         "description": ""
     },
     "privacyProcessRefererPrompt": {
@@ -540,7 +540,7 @@
         "description": ""
     },
     "privacyProcessRefererHelp": {
-        "message": "Van Wikipedia:<blockquote>Een HTTP-referer is een HTTP-headerveld dat het adres aanduidt van de webpagina die naar de opgevraagde bron verwijst. ... <b>Omdat referer-informatie de privacy kan schenden, kunnen gebruikers in sommige webbrowsers het verzenden van de referer-informatie uitschakelen.</b></blockquote>Als deze optie is aangevinkt, zal <i>uMatrix</i> de HTTP-referer vervalsen (lees: manipuleren) als de domeinnaam van de HTTP-referer een derde partij is voor de domeinnaam van de netwerkaanvraag.",
+        "message": "Van Wikipedia:<blockquote>Een HTTP-referer is een HTTP-headerveld dat het adres aanduidt van de webpagina die naar de opgevraagde bron verwijst. ... <b>Omdat referer-informatie de privacy kan schenden, kunnen gebruikers in sommige webbrowsers het verzenden van de referer-informatie uitschakelen.</b></blockquote>Als deze optie is aangevinkt, zal <i>nuTensor</i> de HTTP-referer vervalsen (lees: manipuleren) als de domeinnaam van de HTTP-referer een derde partij is voor de domeinnaam van de netwerkaanvraag.",
         "description": ""
     },
     "privacyNoMixedContentPrompt": {
@@ -684,7 +684,7 @@
         "description": ""
     },
     "aboutChangelog": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/releases'>Wijzigingenlogboek</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/releases'>Wijzigingenlogboek</a>",
         "description": ""
     },
     "aboutStorageUsed": {
@@ -692,11 +692,11 @@
         "description": ""
     },
     "aboutDoc": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/wiki'>Documentatie</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/wiki'>Documentatie</a>",
         "description": ""
     },
     "aboutPermissions": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/wiki/Permissions'>Toestemmingen</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/wiki/Permissions'>Toestemmingen</a>",
         "description": ""
     },
     "aboutCode": {
@@ -740,7 +740,7 @@
         "description": ""
     },
     "aboutRestoreConfirm": {
-        "message": "Al uw instellingen zullen met back-upgegevens van {{time}} worden overschreven, en uMatrix zal worden herstart.\n\nWilt u alle bestaande instellingen met back-upgegevens overschrijven?",
+        "message": "Al uw instellingen zullen met back-upgegevens van {{time}} worden overschreven, en nuTensor zal worden herstart.\n\nWilt u alle bestaande instellingen met back-upgegevens overschrijven?",
         "description": "Message asking user to confirm restore"
     },
     "aboutRestoreError": {
@@ -760,8 +760,8 @@
         "description": "Message asking user to confirm reset"
     },
     "mainBlockedPrompt1": {
-        "message": "uMatrix heeft voorkomen dat de volgende pagina werd geladen:",
-        "description": "English: uMatrix has prevented the following page from loading:"
+        "message": "nuTensor heeft voorkomen dat de volgende pagina werd geladen:",
+        "description": "English: nuTensor has prevented the following page from loading:"
     },
     "mainBlockedPrompt2": {
         "message": "vanwege de volgende regel",

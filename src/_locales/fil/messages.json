@@ -1,6 +1,6 @@
 {
     "extName": {
-        "message": "uMatrix",
+        "message": "nuTensor",
         "description": ""
     },
     "extShortDesc": {
@@ -8,11 +8,11 @@
         "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS"
     },
     "dashboardPageName": {
-        "message": "uMatrix — Dashboard",
+        "message": "nuTensor — Dashboard",
         "description": ""
     },
     "loggerPageName": {
-        "message": "uMatrix — Logger",
+        "message": "nuTensor — Logger",
         "description": "Title for the logger window"
     },
     "settingsPageName": {
@@ -164,7 +164,7 @@
         "description": "Used as a tooltip for the recipe padlock button"
     },
     "statsPageTitle": {
-        "message": "uMatrix &ndash; Istatistika",
+        "message": "nuTensor &ndash; Istatistika",
         "description": ""
     },
     "statsPageGenericStats": {
@@ -276,7 +276,7 @@
         "description": "Second part of Remember the last [n] HTTP requests per page"
     },
     "statsPageLogSizeHelp": {
-        "message": "<p> Maaari mong siyasatin ang mga detalye ng pinakahuling mga kahilingan sa HTTP na ginawa ng isang web page (tingnan sa ibaba). </p> <p> Ito ay kapaki-pakinabang sa mga advanced na user na nais mag-imbestiga nang eksakto kung ano ang ginagawa ng isang web page. Ngunit ang pag-log ng mga kahilingan sa HTTP ay nangangailangan ng memorya, at kung hindi mo pinapahalagahan ang tungkol sa teknikal na impormasyon, pagkatapos ay ang memory ay nasayang. </p> <p> Samakatuwid ang patlang na ito na nagpapahintulot sa iyo na ayusin ang maximum na bilang ng mga pinakahuling mga kahilingan sa HTTP ay dapat ma-log para sa karagdagang inspeksyon. </p> <p> Ipasok ang &ldquo; <code> 0 </code> &rdquo; upang patayin ang detalyadong pag-log (at dahil dito ay bawasan ang memory footprint ng <i> uMatrix </i>). </p>",
+        "message": "<p> Maaari mong siyasatin ang mga detalye ng pinakahuling mga kahilingan sa HTTP na ginawa ng isang web page (tingnan sa ibaba). </p> <p> Ito ay kapaki-pakinabang sa mga advanced na user na nais mag-imbestiga nang eksakto kung ano ang ginagawa ng isang web page. Ngunit ang pag-log ng mga kahilingan sa HTTP ay nangangailangan ng memorya, at kung hindi mo pinapahalagahan ang tungkol sa teknikal na impormasyon, pagkatapos ay ang memory ay nasayang. </p> <p> Samakatuwid ang patlang na ito na nagpapahintulot sa iyo na ayusin ang maximum na bilang ng mga pinakahuling mga kahilingan sa HTTP ay dapat ma-log para sa karagdagang inspeksyon. </p> <p> Ipasok ang &ldquo; <code> 0 </code> &rdquo; upang patayin ang detalyadong pag-log (at dahil dito ay bawasan ang memory footprint ng <i> nuTensor </i>). </p>",
         "description": "To help user understand the purpose of the log size value"
     },
     "statsPageRefresh": {
@@ -432,7 +432,7 @@
         "description": "Label for radio-button to pick export text format"
     },
     "settingsPageTitle": {
-        "message": "uMatrix &ndash; Settings",
+        "message": "nuTensor &ndash; Settings",
         "description": ""
     },
     "settingsMatrixDisplayHeader": {
@@ -492,7 +492,7 @@
         "description": ""
     },
     "privacyPageTitle": {
-        "message": "uMatrix &ndash; Privacy",
+        "message": "nuTensor &ndash; Privacy",
         "description": ""
     },
     "privacyDeleteBlockedCookiesPrompt": {
@@ -500,7 +500,7 @@
         "description": ""
     },
     "privacyDeleteBlockedCookiesHelp": {
-        "message": "<p> Ang mga blacklist na cookies ay hindi napigilan ng <i>uMatrix</i> mula sa pagpasok ng iyong browser. Gayunpaman, pinigilan sila sa pag-alis ng iyong browser, na kung saan ay talagang mahalaga. Ang hindi pagharang ng mga cookies bago sila ipasok ang iyong browser ay nagbibigay sa iyo ng pagkakataong maabisuhan na sinubukan ng isang site na gumamit ng mga cookies, at higit pa upang siyasatin ang mga nilalaman nito kung nais mo. </p><p> Kapag ang mga naka-blacklist na cookies ay na-accounted sa pamamagitan ng <i>uMatrix</i>, maaari silang alisin mula sa iyong browser kung nais mo. </p><p><b>Mahalagang paalala: </b> Maaaring gawing mga extension ang mga kahilingan sa web sa panahon ng kanilang normal na operasyon. Ang mga kahilingan na ito ay maaaring magresulta sa mga cookies na nilikha sa browser. Kung ang hostname mula sa kung saan ang isang cookie na nagmula ay hindi whitelisted, ang cookie ay aalisin mula sa browser sa pamamagitan ng <i> uMatrix </i> kung naka-check ang opsyong ito. Kaya siguraduhin na ang (mga) host na kung saan ang isang extension na nakikipag-ugnay ay whitelisted. </p>",
+        "message": "<p> Ang mga blacklist na cookies ay hindi napigilan ng <i>nuTensor</i> mula sa pagpasok ng iyong browser. Gayunpaman, pinigilan sila sa pag-alis ng iyong browser, na kung saan ay talagang mahalaga. Ang hindi pagharang ng mga cookies bago sila ipasok ang iyong browser ay nagbibigay sa iyo ng pagkakataong maabisuhan na sinubukan ng isang site na gumamit ng mga cookies, at higit pa upang siyasatin ang mga nilalaman nito kung nais mo. </p><p> Kapag ang mga naka-blacklist na cookies ay na-accounted sa pamamagitan ng <i>nuTensor</i>, maaari silang alisin mula sa iyong browser kung nais mo. </p><p><b>Mahalagang paalala: </b> Maaaring gawing mga extension ang mga kahilingan sa web sa panahon ng kanilang normal na operasyon. Ang mga kahilingan na ito ay maaaring magresulta sa mga cookies na nilikha sa browser. Kung ang hostname mula sa kung saan ang isang cookie na nagmula ay hindi whitelisted, ang cookie ay aalisin mula sa browser sa pamamagitan ng <i> nuTensor </i> kung naka-check ang opsyong ito. Kaya siguraduhin na ang (mga) host na kung saan ang isang extension na nakikipag-ugnay ay whitelisted. </p>",
         "description": ""
     },
     "privacyDeleteNonBlockedSessionCookiesPrompt1": {
@@ -532,7 +532,7 @@
         "description": "Second part of 'Clear browser cache every [n] minutes'"
     },
     "privacyClearCacheHelp": {
-        "message": "<p>Ang ilang mga web site ay tunay na baluktot sa pagsubaybay sa iyo, kaya magkano na sila ay gumamit ng hindi-magandang-trick upang gumana sa paligid ng anumang mga panukala mong gawin upang hindi masubaybayan.</p><p>Ang ilan sa mga trick na ito ay umaasa<sup>[1, 2]</sup> sa <a href='https://en.wikipedia.org/wiki/Web_cache'>browser cache</a>, kung aling nilalaman ay madalas na matagal na dahil hindi gaanong magagawa ng mga gumagamit ang oras upang regular na i-clear ang cache ng kanilang browser.</p><p>May kaunting abala na regular na i-clear ang cache ng browser (posibilidad na hindi mo mapansin kapag nangyari ito), at ang benepisyo ay upang maiwasan ang mga kasuklam-suklam na tagasubaybay mula sa pagsalakay sa iyong privacy.</p><p>Suriin ang opsyong ito upang magkaroon ng <i> uMatrix </i> gawin ito para sa iyo, sa pagitan na nais mo.</p><p>[1] <a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Ppag-iwas sa Pagsubaybay sa Web sa pamamagitan ng Cache Browser&rdquo;</a>\n[2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;</a></p>",
+        "message": "<p>Ang ilang mga web site ay tunay na baluktot sa pagsubaybay sa iyo, kaya magkano na sila ay gumamit ng hindi-magandang-trick upang gumana sa paligid ng anumang mga panukala mong gawin upang hindi masubaybayan.</p><p>Ang ilan sa mga trick na ito ay umaasa<sup>[1, 2]</sup> sa <a href='https://en.wikipedia.org/wiki/Web_cache'>browser cache</a>, kung aling nilalaman ay madalas na matagal na dahil hindi gaanong magagawa ng mga gumagamit ang oras upang regular na i-clear ang cache ng kanilang browser.</p><p>May kaunting abala na regular na i-clear ang cache ng browser (posibilidad na hindi mo mapansin kapag nangyari ito), at ang benepisyo ay upang maiwasan ang mga kasuklam-suklam na tagasubaybay mula sa pagsalakay sa iyong privacy.</p><p>Suriin ang opsyong ito upang magkaroon ng <i> nuTensor </i> gawin ito para sa iyo, sa pagitan na nais mo.</p><p>[1] <a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Ppag-iwas sa Pagsubaybay sa Web sa pamamagitan ng Cache Browser&rdquo;</a>\n[2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;</a></p>",
         "description": ""
     },
     "privacyProcessRefererPrompt": {
@@ -540,7 +540,7 @@
         "description": ""
     },
     "privacyProcessRefererHelp": {
-        "message": "Mula sa Wikipedia:<blockquote> Ang HTTP referer ay isang header ng HTTP na nagpapakilala sa address ng webpage na naka-link sa mapagkukunan na hiniling. ...<b>Dahil ang impormasyon ng referer ay maaaring lumalabag sa privacy, pinapayagan ng ilang mga browser ng web ang gumagamit na huwag paganahin ang pagpapadala ng impormasyon ng referer.</b></blockquote>Kung naka-check ang setting na ito,<i>uMatrix</i>ay i-spoof ang impormasyon ng HTTP referrer kung ang pangalan ng domain ng HTTP referrer ay third-party sa pangalan ng domain na net request.",
+        "message": "Mula sa Wikipedia:<blockquote> Ang HTTP referer ay isang header ng HTTP na nagpapakilala sa address ng webpage na naka-link sa mapagkukunan na hiniling. ...<b>Dahil ang impormasyon ng referer ay maaaring lumalabag sa privacy, pinapayagan ng ilang mga browser ng web ang gumagamit na huwag paganahin ang pagpapadala ng impormasyon ng referer.</b></blockquote>Kung naka-check ang setting na ito,<i>nuTensor</i>ay i-spoof ang impormasyon ng HTTP referrer kung ang pangalan ng domain ng HTTP referrer ay third-party sa pangalan ng domain na net request.",
         "description": ""
     },
     "privacyNoMixedContentPrompt": {
@@ -684,7 +684,7 @@
         "description": ""
     },
     "aboutChangelog": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/releases'>Change log</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/releases'>Change log</a>",
         "description": ""
     },
     "aboutStorageUsed": {
@@ -692,7 +692,7 @@
         "description": ""
     },
     "aboutDoc": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/wiki'>Dokumentasyon</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/wiki'>Dokumentasyon</a>",
         "description": ""
     },
     "aboutPermissions": {
@@ -740,7 +740,7 @@
         "description": ""
     },
     "aboutRestoreConfirm": {
-        "message": "Ang lahat ng iyong mga setting ay mapapatungan gamit ang data na naka-back up sa {{time}}, at uMatrix ay muling simulan.\n\nI-overwrite ang lahat ng umiiral na mga setting gamit ang naka-back up na data?",
+        "message": "Ang lahat ng iyong mga setting ay mapapatungan gamit ang data na naka-back up sa {{time}}, at nuTensor ay muling simulan.\n\nI-overwrite ang lahat ng umiiral na mga setting gamit ang naka-back up na data?",
         "description": "Message asking user to confirm restore"
     },
     "aboutRestoreError": {
@@ -760,8 +760,8 @@
         "description": "Message asking user to confirm reset"
     },
     "mainBlockedPrompt1": {
-        "message": "Pinigilan ng uMatrix ang sumusunod na pahina mula sa paglo-load:",
-        "description": "English: uMatrix has prevented the following page from loading:"
+        "message": "Pinigilan ng nuTensor ang sumusunod na pahina mula sa paglo-load:",
+        "description": "English: nuTensor has prevented the following page from loading:"
     },
     "mainBlockedPrompt2": {
         "message": "Dahil sa sumusunod na tuntunin",

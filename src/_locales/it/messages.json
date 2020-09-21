@@ -1,6 +1,6 @@
 {
     "extName": {
-        "message": "uMatrix",
+        "message": "nuTensor",
         "description": ""
     },
     "extShortDesc": {
@@ -8,11 +8,11 @@
         "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS"
     },
     "dashboardPageName": {
-        "message": "uMatrix — Pannello di controllo",
+        "message": "nuTensor — Pannello di controllo",
         "description": ""
     },
     "loggerPageName": {
-        "message": "uMatrix — Registro",
+        "message": "nuTensor — Registro",
         "description": "Title for the logger window"
     },
     "settingsPageName": {
@@ -164,7 +164,7 @@
         "description": "Used as a tooltip for the recipe padlock button"
     },
     "statsPageTitle": {
-        "message": "uMatrix &ndash; Statistiche",
+        "message": "nuTensor &ndash; Statistiche",
         "description": ""
     },
     "statsPageGenericStats": {
@@ -276,7 +276,7 @@
         "description": "Second part of Remember the last [n] HTTP requests per page"
     },
     "statsPageLogSizeHelp": {
-        "message": "<p>Puoi ispezionare i dettagli della richiesta HTTP raw più recente fatta da una pagina web (vedi sotto).</p><p>Questo è utile soprattutto per gli utenti avanzati che vogliono investigare su cosa fa esattamente una pagina web. Tuttavia registrare queste richieste HTTP richiede memoria, e se non ti interessano le informazioni tecniche, allora è uno spreco di memoria.</p><p>Ecco questo campo per regolare il massimo numero di richieste HTTP recenti da registrare per ulteriori ispezioni.</p><p>Inserisci &ldquo;<code>0</code>&rdquo; per disattivare la registrazione (e di conseguenza ridurre l'ingombro di memoria di <i>uMatrix</i>).</p>",
+        "message": "<p>Puoi ispezionare i dettagli della richiesta HTTP raw più recente fatta da una pagina web (vedi sotto).</p><p>Questo è utile soprattutto per gli utenti avanzati che vogliono investigare su cosa fa esattamente una pagina web. Tuttavia registrare queste richieste HTTP richiede memoria, e se non ti interessano le informazioni tecniche, allora è uno spreco di memoria.</p><p>Ecco questo campo per regolare il massimo numero di richieste HTTP recenti da registrare per ulteriori ispezioni.</p><p>Inserisci &ldquo;<code>0</code>&rdquo; per disattivare la registrazione (e di conseguenza ridurre l'ingombro di memoria di <i>nuTensor</i>).</p>",
         "description": "To help user understand the purpose of the log size value"
     },
     "statsPageRefresh": {
@@ -432,7 +432,7 @@
         "description": "Label for radio-button to pick export text format"
     },
     "settingsPageTitle": {
-        "message": "uMatrix &ndash; Impostazioni",
+        "message": "nuTensor &ndash; Impostazioni",
         "description": ""
     },
     "settingsMatrixDisplayHeader": {
@@ -492,7 +492,7 @@
         "description": ""
     },
     "privacyPageTitle": {
-        "message": "uMatrix &ndash; Privacy",
+        "message": "nuTensor &ndash; Privacy",
         "description": ""
     },
     "privacyDeleteBlockedCookiesPrompt": {
@@ -500,7 +500,7 @@
         "description": ""
     },
     "privacyDeleteBlockedCookiesHelp": {
-        "message": "<p><i>uMatrix</i> non può impedire ai cookie bloccati di entrare nel tuo browser. Tuttavia impedisce che lascino il tuo browser, che è la cosa che conta. Non bloccare i cookie prima che entrino nel tuo browser ti dà la possibilità di sapere che un sito ha provato ad utilizzare cookie, e anche di ispezionarne il contenuto se lo desideri.</p><p>Quando questi cookie bloccati vengono presi in gestione da <i>uMatrix</i>, possono essere rimossi dal browser se lo desideri.</p><p><b>Nota importante:</b> Le estensioni possono fare richieste web durante il loro normale funzionamento. Queste richieste possono portare alla creazione di cookie nel browser. Se il nome dell'host da cui proviene un cookie non è presente nella lista bianca, il cookie verrà rimosso dal browser da <i>uMatrix</i> se l'opzione è selezionata. Assicurati quindi che il/i nome/i dell'host con cui un'estensione comunica sia in lista bianca.</p>",
+        "message": "<p><i>nuTensor</i> non può impedire ai cookie bloccati di entrare nel tuo browser. Tuttavia impedisce che lascino il tuo browser, che è la cosa che conta. Non bloccare i cookie prima che entrino nel tuo browser ti dà la possibilità di sapere che un sito ha provato ad utilizzare cookie, e anche di ispezionarne il contenuto se lo desideri.</p><p>Quando questi cookie bloccati vengono presi in gestione da <i>nuTensor</i>, possono essere rimossi dal browser se lo desideri.</p><p><b>Nota importante:</b> Le estensioni possono fare richieste web durante il loro normale funzionamento. Queste richieste possono portare alla creazione di cookie nel browser. Se il nome dell'host da cui proviene un cookie non è presente nella lista bianca, il cookie verrà rimosso dal browser da <i>nuTensor</i> se l'opzione è selezionata. Assicurati quindi che il/i nome/i dell'host con cui un'estensione comunica sia in lista bianca.</p>",
         "description": ""
     },
     "privacyDeleteNonBlockedSessionCookiesPrompt1": {
@@ -532,7 +532,7 @@
         "description": "Second part of 'Clear browser cache every [n] minutes'"
     },
     "privacyClearCacheHelp": {
-        "message": "<p>Alcuni siti sono davvero inclini a tracciarti, tanto che utilizzeranno trucchi non molto carini per sorpassare qualsiasi misura prendi per non essere monitorato.</p><p>Alcuni di questi trucchi si basano<sup>[1, 2]</sup> sulla <a href='https://it.wikipedia.org/wiki/Web_cache'>cache del browser</a>, il quale contenuto è spesso di lunga durata, dato che raramente gli utenti si prendono il tempo di cancellare regolarmente la cache del loro browser.</p><p>C'è poco disagio nel cancellare la cache del browser regolarmente (probabilmente non te ne renderai conto), e il vantaggio è quello di evitare che questi infelici tracker invadano la tua privacy.</p><p>Seleziona questa opzione se vuoi che <i>uMatrix</i> lo faccia per te, a intervalli scelti.</p><p>[1]<a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Preventing Web Tracking via the Browser Cache&rdquo;</a> [2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;</a></p>",
+        "message": "<p>Alcuni siti sono davvero inclini a tracciarti, tanto che utilizzeranno trucchi non molto carini per sorpassare qualsiasi misura prendi per non essere monitorato.</p><p>Alcuni di questi trucchi si basano<sup>[1, 2]</sup> sulla <a href='https://it.wikipedia.org/wiki/Web_cache'>cache del browser</a>, il quale contenuto è spesso di lunga durata, dato che raramente gli utenti si prendono il tempo di cancellare regolarmente la cache del loro browser.</p><p>C'è poco disagio nel cancellare la cache del browser regolarmente (probabilmente non te ne renderai conto), e il vantaggio è quello di evitare che questi infelici tracker invadano la tua privacy.</p><p>Seleziona questa opzione se vuoi che <i>nuTensor</i> lo faccia per te, a intervalli scelti.</p><p>[1]<a href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Preventing Web Tracking via the Browser Cache&rdquo;</a> [2] <a href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;</a></p>",
         "description": ""
     },
     "privacyProcessRefererPrompt": {
@@ -540,7 +540,7 @@
         "description": ""
     },
     "privacyProcessRefererHelp": {
-        "message": "Da Wikipedia (en):<blockquote>Un referer HTTP è un campo di intestazione HTTP che identifica l'indirizzo della pagina web di provenienza verso la risorsa richiesta. ... <b>Poiché le informazioni del referer possono violare la privacy, alcuni browser consentono all'utente di disabilitare l'invio delle informazioni del referer.</b></blockquote>Se questa opzione è selezionata, <i>uMatrix</i> falsificherà (spoof) le informazioni del referrer HTTP se il nome di dominio del referrer HTTP è di terze parti.",
+        "message": "Da Wikipedia (en):<blockquote>Un referer HTTP è un campo di intestazione HTTP che identifica l'indirizzo della pagina web di provenienza verso la risorsa richiesta. ... <b>Poiché le informazioni del referer possono violare la privacy, alcuni browser consentono all'utente di disabilitare l'invio delle informazioni del referer.</b></blockquote>Se questa opzione è selezionata, <i>nuTensor</i> falsificherà (spoof) le informazioni del referrer HTTP se il nome di dominio del referrer HTTP è di terze parti.",
         "description": ""
     },
     "privacyNoMixedContentPrompt": {
@@ -684,7 +684,7 @@
         "description": ""
     },
     "aboutChangelog": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/releases'>Change log</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/releases'>Change log</a>",
         "description": ""
     },
     "aboutStorageUsed": {
@@ -692,7 +692,7 @@
         "description": ""
     },
     "aboutDoc": {
-        "message": "<a href='https://github.com/gorhill/uMatrix/wiki'>Documentazione</a>",
+        "message": "<a href='https://github.com/geekprojects/nuTensor/wiki'>Documentazione</a>",
         "description": ""
     },
     "aboutPermissions": {
@@ -740,7 +740,7 @@
         "description": ""
     },
     "aboutRestoreConfirm": {
-        "message": "Tutte le impostazioni verranno sovrascritte utilizzando i dati di backup del {{time}}, e uMatrix sarà riavviato. \n\nSovrascrivere tutte le impostazioni esistenti con quelle del backup?",
+        "message": "Tutte le impostazioni verranno sovrascritte utilizzando i dati di backup del {{time}}, e nuTensor sarà riavviato. \n\nSovrascrivere tutte le impostazioni esistenti con quelle del backup?",
         "description": "Message asking user to confirm restore"
     },
     "aboutRestoreError": {
@@ -760,8 +760,8 @@
         "description": "Message asking user to confirm reset"
     },
     "mainBlockedPrompt1": {
-        "message": "uMatrix ha impedito alla seguente pagina di caricarsi:",
-        "description": "English: uMatrix has prevented the following page from loading:"
+        "message": "nuTensor ha impedito alla seguente pagina di caricarsi:",
+        "description": "English: nuTensor has prevented the following page from loading:"
     },
     "mainBlockedPrompt2": {
         "message": "A causa della regola seguente",
