@@ -16,19 +16,19 @@ import zipfile
 from distutils.version import LooseVersion
 from string import Template
 
-# - Download target (raw) uMatrix.firefox.xpi from GitHub
+# - Download target (raw) nuTensor.firefox.xpi from GitHub
 #   - This is referred to as "raw" package
 #   - This will fail if not a dev build
 # - Modify raw package to make it self-hosted
 #   - This is referred to as "unsigned" package
-# - Ask AMO to sign uMatrix.firefox.xpi
+# - Ask AMO to sign nuTensor.firefox.xpi
 #   - Generate JWT to be used for communication with server
 #   - Upload unsigned package to AMO
 #   - Wait for a valid download URL for signed package
-#   - Download signed package as uMatrix.firefox.signed.xpi
+#   - Download signed package as nuTensor.firefox.signed.xpi
 #     - This is referred to as "signed" package
-# - Upload uMatrix.firefox.signed.xpi to GitHub
-# - Remove uMatrix.firefox.xpi from GitHub
+# - Upload nuTensor.firefox.signed.xpi to GitHub
+# - Remove nuTensor.firefox.xpi from GitHub
 # - Modify updates.json to point to new version
 #   - Commit changes to repo
 
@@ -59,15 +59,15 @@ if match.group(2):
         revision += 100;
     ext_version += '.' + str(revision)
 
-extension_id = 'uMatrix@raymondhill.net'
+extension_id = 'nuTensor@geekprojects.com'
 tmpdir = tempfile.TemporaryDirectory()
-raw_xpi_filename = 'uMatrix_' + tag_version + '.firefox.xpi'
+raw_xpi_filename = 'nuTensor_' + tag_version + '.firefox.xpi'
 raw_xpi_filepath = os.path.join(tmpdir.name, raw_xpi_filename)
-unsigned_xpi_filepath = os.path.join(tmpdir.name, 'uMatrix.firefox.unsigned.xpi')
-signed_xpi_filename = 'uMatrix_' + tag_version + '.firefox.signed.xpi'
+unsigned_xpi_filepath = os.path.join(tmpdir.name, 'nuTensor.firefox.unsigned.xpi')
+signed_xpi_filename = 'nuTensor_' + tag_version + '.firefox.signed.xpi'
 signed_xpi_filepath = os.path.join(tmpdir.name, signed_xpi_filename)
-github_owner = 'gorhill'
-github_repo = 'uMatrix'
+github_owner = 'geekprojects'
+github_repo = 'nuTensor'
 
 # Load/save auth secrets
 # The build directory is excluded from git
@@ -118,7 +118,7 @@ release_info = response.json()
 # Extract URL to raw package from metadata
 #
 
-# Find url for uMatrix.firefox.xpi
+# Find url for nuTensor.firefox.xpi
 raw_xpi_url = ''
 for asset in release_info['assets']:
     if asset['name'] == signed_xpi_filename:
