@@ -4,7 +4,7 @@
         "description": ""
     },
     "extShortDesc": {
-        "message": "Kontrolliere alle Anfragen deines Browsers durch einfaches Point&Click. Blockiere damit Skripte, IFrames, Werbung, Facebook usw.",
+        "message": "Kontrolliere alle Anfragen deines Browsers durch einfaches Point&Click.  Ein Fork von Raymond Hills uMatrix.",
         "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS"
     },
     "dashboardPageName": {
@@ -860,7 +860,7 @@
         "description": "for generic 'Apply changes' buttons"
     },
     "genericCopyToClipboard": {
-        "message": "Copy to clipboard",
+        "message": "In die Zwischenablage kopieren",
         "description": "Label for buttons used to copy something to the clipboard"
     }
 }
