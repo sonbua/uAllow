@@ -4,7 +4,7 @@
 	"eqeqeq": true,
 	"esversion": 8,
 	"globals": {
-		"browser": false,    // global variable in Firefox, Edge
+		"browser": false,
 		"self": false,
 		"chrome": false,
 		"log": false,
