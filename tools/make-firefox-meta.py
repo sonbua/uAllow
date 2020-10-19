@@ -25,7 +25,7 @@ match = re.search('^\d+\.\d+\.\d+(b|rc)', version)
 if not match:
     # https://bugzilla.mozilla.org/show_bug.cgi?id=1459007
     # By design Firefox opens the sidebar with new installation of
-    # uMatrix when sidebar_action is present in the manifest.
+    # nuTensor when sidebar_action is present in the manifest.
     # Remove sidebarAction support for stable release of uBO.
     del webext_manifest['sidebar_action']
 

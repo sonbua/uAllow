@@ -2,6 +2,6 @@
 #
 # This script assumes a linux environment
 
-echo "*** uMatrix(Chromium): Cleaning."
+echo "*** nuTensor(Chromium): Cleaning."
 rm -R ./dist/build
-echo "*** uMatrix(Chromium): Cleaned."
+echo "*** nuTensor(Chromium): Cleaned."
